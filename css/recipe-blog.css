@@ -179,8 +179,33 @@ main {
 .serving-item {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 40px;
+}
+
+.serving-title {
+  color:  #bdbdbd;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.serving-content h2 {
+  font-size: 16px;
+}
+
+.serving-content h2, h3{
+    white-space: nowrap;
+}
+
+.full-width-row {
+  color: #f2994a;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 /* footer section  */
@@ -206,26 +231,24 @@ footer p {
 /* Responsive styles  */
 /* Mobile  */
 @media screen and (max-width: 576px) {
-  main{
+  main {
     flex-direction: column-reverse;
   }
 
-  .serving{
+  .serving {
     box-shadow: 0 0 0;
     width: 100%;
     font-size: 10px;
-    margin-bottom:50px;
-    padding:0 10px;
+    margin-bottom: 50px;
+    padding: 0 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .full-width-row{
-    grid-column: span 3;
-  }
 
-  .crusts-container, .Cheesecake-container{
-    margin-left:25px;
+  .crusts-container,
+  .Cheesecake-container {
+    margin-left: 25px;
   }
 
   header {
