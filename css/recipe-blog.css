@@ -1,0 +1,16 @@
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap");
+
+/* reset default styles  */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* shared styles  */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
